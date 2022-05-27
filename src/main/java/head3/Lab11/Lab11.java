@@ -17,7 +17,7 @@ public class Lab11 {
     }
 
     public static void main(String[] args) {
-        Path path = Path.of("/Users/aleksejagnenkov/IdeaProjects/CoreJava/src/main/java/corejava/chapter3/lab6");
+        Path path = Path.of("C:\\Users\\Z.U.L\\IdeaProjects\\AllLabsJava\\src\\main\\java\\head3\\Lab6");
         System.out.println(Arrays.toString(takeAllFilesByPath(path)));
         System.out.println(Arrays.toString(takeAllFilesByPathWithLambda(path, "java")));
     }

@@ -9,10 +9,11 @@ public class PathInfo {
     public static void printPathInfo(Path pathname) {
         File[] files = pathname.toFile().listFiles();
         if (files != null) {
-            Comparator<File> comp = Comparator.comparing((File s) -> !s.isDirectory()).thenComparing(File::getName);
+            Comparator<File> comp = Comparator.comparing((File s) -> !s.isDirectory()).thenComparing(File::getAbsolutePath);
             Arrays.sort(files, comp);
             for (File file : files) {
-                System.out.println(file.getName());
+                System.out.println(file.getAbsolutePath());
+
             }
         }
     }

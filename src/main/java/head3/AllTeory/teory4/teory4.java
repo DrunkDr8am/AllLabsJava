@@ -1,4 +1,4 @@
-package head3.teory4;
+package head3.AllTeory.teory4;
 
 /*
 Comparable - реализуется внутри класса. По сути, определяет обычный/естественный порядок сравнения объектов.

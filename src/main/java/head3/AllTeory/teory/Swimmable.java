@@ -1,4 +1,4 @@
-package head3.teory;
+package head3.AllTeory.teory;
 
 public interface Swimmable  {
     public default void swim() {

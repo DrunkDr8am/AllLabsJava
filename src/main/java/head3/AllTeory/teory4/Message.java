@@ -1,4 +1,4 @@
-package head3.teory4;
+package head3.AllTeory.teory4;
 
 import java.util.Random;
 

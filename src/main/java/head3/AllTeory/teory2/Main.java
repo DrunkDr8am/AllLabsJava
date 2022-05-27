@@ -1,4 +1,4 @@
-package head3.teory2;
+package head3.AllTeory.teory2;
 
 import java.util.Arrays;
 import java.util.List;
